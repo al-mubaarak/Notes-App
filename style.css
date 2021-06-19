@@ -78,4 +78,23 @@ textarea.hidden{
     display: block;
 }
 
+/* ...................
+responsiveness
+..................... */
+@media only screen and (max-width: 767px ) {
+    .main-content{
+        font-size: 1rem;
+    }
+    .notes textarea{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 565px ) {
+    .main-content{
+        font-size: .9rem;
+    }
+    .notes textarea{
+        font-size: .9rem;
+    }
+}
 
